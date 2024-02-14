@@ -4,6 +4,7 @@ import React from 'react'
 import { rows } from './data'
 import './TeamPage.css'
 import { AdminPanelSettingsRounded, LockPersonRounded, SecurityRounded } from '@mui/icons-material'
+import TitlePage from '../../components/TitlePage'
 
 function TeamPage() {
 
@@ -91,7 +92,11 @@ function TeamPage() {
 
     return (
         <div className='team-page'>
-            <Box sx={{ height: 85 + 'vh', width: '100%', }}>
+            <TitlePage
+                title='team'
+                description='Managing the Team Members'
+            />
+            <Box sx={{ height: 75 + 'vh', width: '100%', }}>
                 <DataGrid
                     rows={rows}
                     columns={columns}

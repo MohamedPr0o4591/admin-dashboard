@@ -1,4 +1,4 @@
-import { BarChartOutlined, CalendarTodayOutlined, ContactsOutlined, HelpOutlineOutlined, HomeOutlined, MapOutlined, PeopleOutline, PersonOutline, PieChartOutline, ReceiptOutlined, TimerOutlined } from '@mui/icons-material';
+import { BarChartOutlined, CalendarTodayOutlined, ContactsOutlined, HelpOutlineOutlined, HomeOutlined, LineAxisOutlined, MapOutlined, PeopleOutline, PersonOutline, PieChartOutline, ReceiptOutlined, TimerOutlined } from '@mui/icons-material';
 
 
 export const Array1 = [
@@ -56,7 +56,7 @@ export const Array3 = [
     {
         title: 'Line Chart',
         path: '/line',
-        icon: <TimerOutlined />,
+        icon: <LineAxisOutlined />,
     },
     {
         title: 'Geography Chart',
