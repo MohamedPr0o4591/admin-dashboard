@@ -23,8 +23,8 @@ function FaqPage() {
                 description='Frequently asked questions for some users'
             />
 
-            <Stack gap={1}>
-                <Accordion defaultExpanded >
+            <Stack gap={2}>
+                <Accordion defaultExpanded onChange={handleChange('panel1')}>
                     <AccordionSummary
                         expandIcon={<ExpandMoreIcon />}
                         aria-controls="panel1bh-content"
