@@ -11,6 +11,7 @@ import HomePage from './pages/dashboard/HomePage.jsx';
 import InvoicesPage from './pages/invoices/InvoicesPage.jsx';
 import FormMembers from './pages/form members/FormMembers.jsx';
 import CalendarPage from './pages/calendar/CalendarPage.jsx';
+import FaqPage from './pages/faq/FaqPage.jsx';
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -23,6 +24,7 @@ createRoot(document.getElementById('root')).render(
           <Route path='invoices' element={<InvoicesPage />} />
           <Route path='form' element={<FormMembers />} />
           <Route path='calendar' element={<CalendarPage />} />
+          <Route path='faq' element={<FaqPage />} />
           <Route path='*' element={<h3 className='text-center fw-bolder'>Page Not Found</h3>} />
         </Route>
       </Routes>

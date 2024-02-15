@@ -30,6 +30,7 @@ function renderSidebarEvent(event) {
 let eventGuid = 0
 let todayStr = new Date().toISOString().replace(/T.*$/, '') // YYYY-MM-DD of today
 
+
 let INITIAL_EVENTS;
 
 function createEventId() {
@@ -62,6 +63,7 @@ export default function CalendarPage() {
                 allDay: selectInfo.allDay
             })
         }
+
     }
 
     const handleEventClick = (clickInfo) => {
