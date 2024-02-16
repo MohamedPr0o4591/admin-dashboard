@@ -12,7 +12,7 @@ function Row3() {
 
 
     return (
-        <Stack direction={'row'} gap={1} height={400} width={100 + '%'}>
+        <Stack gap={1} width={100 + '%'} className='row3'>
 
             <Paper sx={{ flexGrow: 1, }}>
                 <Stack p={1} gap={1} height={100 + '%'}>

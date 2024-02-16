@@ -11,12 +11,12 @@ function Row2() {
     const themeStyle = theme()
 
     return (
-        <Stack gap={1} direction={'row'} height={500} width={100 + '%'}>
+        <Stack gap={1} width={100 + '%'} className='row2'>
             <Paper
+                className='paper-row2'
                 sx={{
                     p: 1,
-                    width: 60 + '%',
-                    height: 100 + '%'
+                    height: 100 + '%',
                 }}
             >
                 <Stack gap={1} height={100 + '%'}>

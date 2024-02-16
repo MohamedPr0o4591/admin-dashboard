@@ -15,3 +15,33 @@
     gap: 15px;
     min-width: 300px;
 }
+
+.home_page .row2 {
+    flex-direction: row;
+    height: 500px;
+}
+
+.home_page .paper-row2 {
+    width: 60%;
+}
+
+.home_page .row3 {
+    flex-direction: row;
+    height: 400px;
+}
+
+@media (min-width : 320px) and (max-width : 767px) {
+    .home_page .row2 {
+        flex-direction: column;
+        height: 700px;
+    }
+
+    .home_page .paper-row2 {
+        width: 100%;
+    }
+
+    .home_page .row3 {
+        flex-direction: column;
+        height: 900px;
+    }
+}
