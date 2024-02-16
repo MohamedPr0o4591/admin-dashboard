@@ -23,7 +23,7 @@ function PieChartPage() {
                 }}
             >
                 <PieChartComponent
-                    data={data}
+
                     themeStyle={themeStyle}
                 />
             </Box>

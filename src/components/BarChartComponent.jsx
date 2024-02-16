@@ -1,11 +1,12 @@
 import React from 'react'
 import { ResponsiveBar } from '@nivo/bar'
+import { data } from './../pages/bar chart/data';
 
 function BarChartComponent(props) {
     return (
         <ResponsiveBar
             theme={props.themeStyle}
-            data={props.data}
+            data={data}
             keys={[
                 'Germany',
                 'Spain',

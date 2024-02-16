@@ -22,7 +22,7 @@ function BarChartPage() {
             >
                 <BarChartComponent
                     themeStyle={themeStyle}
-                    data={data}
+
                 />
             </Box>
 

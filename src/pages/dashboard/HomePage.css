@@ -1,0 +1,17 @@
+.home_page button {
+    text-transform: capitalize;
+}
+
+.home_page .display_flex_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_page .paper {
+    flex-grow: 1;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 15px;
+    min-width: 300px;
+}
